@@ -30,6 +30,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'msg-app-gideon.herokuapp.com']
 
+CSRF_TRUSTED_ORIGINS = ['https://msg-app-gideon.herokuapp.com']
 
 # Application definition
 
